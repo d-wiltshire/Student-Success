@@ -22,6 +22,11 @@ My role in this project was fourfold:
 ### Transformation
 
 
+
 ## Visualizations 
 
+My focus was to visualize relationships between poverty metrics and student success metrics like graduation rates. The visualizations suggest that there may be correlations between these two groups, but correlation is not causation. 
 
+Our group's overall conclusion was that student success is likely affected by a number of factors not in our dataset, and demographic information cannot be considered predictive of student success. However, the correlations are striking and may describe trends that could be clarified with future research. 
+
+Screenshots of sample visualizations can be found below. Please visit our Heroku site ([https://nyc-success-predictions.herokuapp.com/](https://nyc-success-predictions.herokuapp.com/visualizations.html)) to view additional visualizations and interact with the data.
