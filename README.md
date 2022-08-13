@@ -43,4 +43,4 @@ In the visualization above, each dot represents a school. The size of the dot re
 
 ![SampleVisual2](https://user-images.githubusercontent.com/100863488/184498697-4bada34e-f41e-4e47-a3eb-abd7cabfe85a.png)
 
-In the visualization above, each dot represents a school. The y-axis represents the percentage of cohorts at that school who drop out before graduation. The x-axis represents the Economic Need Index of that school. The schools with the higher dropout rates tend to be among the schools with the highest Economic Need Index.
+In the visualization above, each dot represents a school. The y-axis represents the percentage of students in each cohort at that school who drop out before graduation. The x-axis represents the Economic Need Index of that school. The schools with the higher dropout rates tend to be among the schools with the highest Economic Need Index.
