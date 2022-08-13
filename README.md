@@ -7,7 +7,7 @@ This repository is meant to demonstrate my contributions to the group project "N
 The goal of the overall project was **to identify and visualize correlations between student demographic data and student success metrics in NYC high schools.**
 
 My role in this project was fourfold:
-- Extracting, cleaning, and transforming the datasets for use in visualizations and machine learning (using Python/Pandas in Jupyter Notebook)
+- Sole responsibility for extracting, cleaning, and transforming the datasets for use in visualizations and machine learning (using Python/Pandas in Jupyter Notebook)
 - Creating all visualizations in Tableau
 - Creating the first machine learning model as a template (a multiple linear regression model using RandomForestRegressor)
 - Writing content and providing some minor styling for the group Heroku website, available here: https://nyc-success-predictions.herokuapp.com/
