@@ -31,6 +31,9 @@ and machine learning:
 
 These four datasets are included in the Resources folder.
 
+
+### Process
+
 The four datasets above contained information regarding cohorts over multiple years and included different age groups of students. Our goal was to correlate demographic information and high school success metrics. In order to compare the information school by school, I took the following steps:
 
 1. Reduced the datasets to include only schools that had students in 9th, 10th, 11th, and/or 12th grades
