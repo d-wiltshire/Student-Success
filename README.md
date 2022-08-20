@@ -51,10 +51,10 @@ At several points in the cleaning process, simple measures were not enough to ac
 
 #### Removing elementary and middle schools from the datasets
 
-Two of the datasets contained elementary and middle schools in the dataset in addition to the high schools needed for our project. These datasets contained 13 columns of students, representing kindergarten through 12th grade, with numbers in each column at each row indicating the number of students in that grade per school. 
+Two of the datasets contained elementary and middle schools in the dataset in addition to the high schools needed for our project. These datasets contain many columns of students, representing pre-kindergarten levels through 12th grade, with numbers in each column at each row indicating the number of students in that grade per school. 
 
 This process involved the following:
-* Dropping the K-8th grade columns
+* Dropping the pre-K through 8th grade columns
 * Converting all blank values in the 9th-12th columns to NaNs
 * Converting all NaNs in the 9th-12th columns to a placeholder to use for filtering
 * Filtering the dataset to include only rows that included a positive number in at least one of the 9th-12th grade columns
