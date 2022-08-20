@@ -23,11 +23,11 @@ and machine learning:
 
 1. <a href="https://data.cityofnewyork.us/Education/2006-2012-School-Demographics-and-Accountability-S/ihfw-zy9j">2006 - 2012 School Demographics and Accountability Snapshot</a> (Demographic information for NYC cohorts and schools)
 
-2. 2016-2017 Graduation Outcomes School (Success metrics like graduation rates and diploma types)
+2. <a href="https://data.cityofnewyork.us/Education/2016-2017-Graduation-Outcomes-School/nb39-jx2v">2016-2017 Graduation Outcomes School</a> (Success metrics like graduation rates and diploma types)
 
-3. 2017-18 - 2021-22 Demographic Snapshot (Demographic information, notably % of students living in poverty and Economic Need Index)
+3. <a href="https://data.cityofnewyork.us/Education/2017-18-2021-22-Demographic-Snapshot/c7ru-d68s/data">2017-18 - 2021-22 Demographic Snapshot</a> (Demographic information, notably % of students living in poverty and Economic Need Index)
 
-4. Average SAT Scores for NYC Public Schools (2014-2015) (Success metrics as well as school latitude and longitude, for visualizations)
+4. <a href="https://www.kaggle.com/datasets/nycopendata/high-schools?select=scores.csv">Average SAT Scores for NYC Public Schools (2014-2015)</a> (Success metrics as well as school latitude and longitude, for visualizations)
 
 These four datasets are included in the Resources folder.
 
