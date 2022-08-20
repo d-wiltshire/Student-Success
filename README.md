@@ -55,9 +55,9 @@ Two of the datasets contained elementary and middle schools in the dataset in ad
 
 This process involved the following:
 * Dropping the K-8th grade columns
-* Converting all blank values to NaNs
-* Converting all NaNs to a placeholder to use for filtering
-* Filtering the dataset to include only columns that included a positive number in at least one of the 9th-12th grade columns
+* Converting all blank values in the 9th-12th columns to NaNs
+* Converting all NaNs in the 9th-12th columns to a placeholder to use for filtering
+* Filtering the dataset to include only rows that included a positive number in at least one of the 9th-12th grade columns
 
 (insert images - use poverty dataset)
 
