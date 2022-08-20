@@ -12,6 +12,9 @@ My role in this project was fourfold:
 - Creating the first machine learning model as a template (a multiple linear regression model using RandomForestRegressor)
 - Writing content and providing some minor styling for the group Heroku website, available here: https://nyc-success-predictions.herokuapp.com/
 
+In this repository I will focus on the extract and transform process as well as the visualizations in Tableau, since this pipeline is self-contained. 
+![whitespace](https://user-images.githubusercontent.com/100863488/185760287-4b4ea44e-2adc-4a6e-9d81-e418d0ad1f84.png)
+
 
 ## Data Cleaning and Transformation
 
@@ -79,6 +82,7 @@ After the data cleaning process was finished, the datasets were averaged by scho
 
 ![image](https://user-images.githubusercontent.com/100863488/185759997-d4efab9d-fdb1-4f9f-989c-5a4afe014751.png)
 
+![whitespace](https://user-images.githubusercontent.com/100863488/185760309-bc2adf46-1be3-4917-b22b-44d5050ceb13.png)
 
 ## Visualizations 
 
