@@ -63,11 +63,15 @@ This process involved the following:
 
 #### Numeric columns stored as non-numeric datatypes
 
-Since I would be averaging the numeric columns to create the summary datasets, it was necessary for numeric columns to be stored as numeric datatypes. Several columns were stored as string datatypes because they contained certain entries with the word "Above" and characters like commas or percentage signs. I used regular expressions and lambda functions to recreate these columns as numeric entries before casting the columns to numeric datatypes.
+Since I would be averaging the numeric columns to create the summary datasets, it was necessary for numeric columns to be stored as numeric datatypes. Several columns were stored as string datatypes because they contained certain entries with the word "Above" and characters like commas or percentage signs. I used regular expressions and lambda functions to recreate these columns with numeric entries before casting the columns to numeric datatypes.
 
+(insert images)
 
-### Transformation
+### Transformation to New Dataframes
 
+After the data cleaning process was finished, the datasets were averaged by school in order to create dataframes with one row per school. The summary dataframes could then be joined together on the School ID ("DBN") column to combine the datasets with information regarding demographic information with information regarding success metrics.
+
+(insert images)
 
 
 ## Visualizations 
