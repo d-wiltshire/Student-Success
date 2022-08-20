@@ -47,7 +47,23 @@ The four datasets above contained information regarding cohorts over multiple ye
 
 ### Cleaning Challenges
 
+At several points in the cleaning process, simple measures were not enough to achieve the desired results. Examples follow below:
 
+#### Removing elementary and middle schools from the datasets
+
+Two of the datasets contained elementary and middle schools in the dataset in addition to the high schools needed for our project. These datasets contained 13 columns of students, kindergarten through 12th grade, with numbers in each column at each row indicating the number of students in that grade per school. 
+
+This process involved the following:
+* Dropping the K-8th grade columns
+* Converting all blank values to NaNs
+* Converting all NaNs to a placeholder to use for filtering
+* Filtering the dataset to include only columns that included a positive number in at least one of the 9th-12th grade columns
+
+(insert images - use poverty dataset)
+
+#### Numeric columns stored as non-numeric datatypes
+
+Since I would be averaging the numeric columns to create the summary datasets, it was necessary for numeric columns to be stored as numeric datatypes. Several columns were stored as string datatypes because they contained certain entries with the word "Above" and characters like commas or percentage signs. I used regular expressions and lambda functions to recreate these columns as numeric entries before casting the columns to numeric datatypes.
 
 
 ### Transformation
