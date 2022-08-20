@@ -13,7 +13,8 @@ My role in this project was fourfold:
 - Writing content and providing some minor styling for the group Heroku website, available here: https://nyc-success-predictions.herokuapp.com/
 
 In this repository I will focus on the extract and transform process as well as the visualizations in Tableau, since this pipeline is self-contained. 
-![whitespace](https://user-images.githubusercontent.com/100863488/185760287-4b4ea44e-2adc-4a6e-9d81-e418d0ad1f84.png)
+![whitespace-large](https://user-images.githubusercontent.com/100863488/185760356-bcea3ba4-a0a5-4dbe-9631-bd473c0f0a51.png)
+
 
 
 ## Data Cleaning and Transformation
@@ -34,6 +35,7 @@ and machine learning:
 
 These four datasets are included in the Resources folder.
 
+![whitespace-small](https://user-images.githubusercontent.com/100863488/185760361-d448a978-3a56-4b6e-995c-b8a285d262f5.png)
 
 ### Process
 
@@ -46,6 +48,7 @@ The four datasets above contained information regarding cohorts over multiple ye
 3. For each dataset, using groupby in Pandas based on the DBN (an identifying code unique to each school) to average all the schools' rows of information on a given feature, thus creating new "averaged" dataframes with one row per school
 
 4. Joining these averaged dataframes together on the DBN column to create a larger, merged dataframe that contains all needed demographic and success metric information
+![whitespace-small](https://user-images.githubusercontent.com/100863488/185760365-8a1bb577-c56e-4271-aa71-eec2c2c1d9d8.png)
 
 
 ### Cleaning Challenges
@@ -75,14 +78,14 @@ Since I would be averaging the numeric columns to create the summary datasets, i
 
 ![image](https://user-images.githubusercontent.com/100863488/185759958-84306b89-05d2-4865-ab3b-5972273dd50a.png)
 
+![whitespace-small](https://user-images.githubusercontent.com/100863488/185760375-4008996a-3446-484b-95e4-b8ae6cf2422f.png)
 
 ### Transformation to New Dataframes
 
 After the data cleaning process was finished, the datasets were averaged by school in order to create dataframes with one row per school. The summary dataframes could then be joined together on the School ID ("DBN") column to combine the datasets with information regarding demographic information with information regarding success metrics.
 
 ![image](https://user-images.githubusercontent.com/100863488/185759997-d4efab9d-fdb1-4f9f-989c-5a4afe014751.png)
-
-![whitespace](https://user-images.githubusercontent.com/100863488/185760309-bc2adf46-1be3-4917-b22b-44d5050ceb13.png)
+![whitespace-large](https://user-images.githubusercontent.com/100863488/185760379-58efde8a-ee1f-41a6-8d57-f84415b4d725.png)
 
 ## Visualizations 
 
