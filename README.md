@@ -67,7 +67,8 @@ An example:
 
 Since I would be averaging the numeric columns to create the summary datasets, it was necessary for numeric columns to be stored as numeric datatypes. Several columns were stored as string datatypes because they contained certain entries with the word "Above" and characters like commas or percentage signs. I used regular expressions and lambda functions to recreate these columns with numeric entries before casting the columns to numeric datatypes. Examples follow below:
 
-![image](https://user-images.githubusercontent.com/100863488/185759916-6d7541ce-e6e8-4a38-8c25-6e31cce717dc.png)
+![image](https://user-images.githubusercontent.com/100863488/185760173-58089724-8a63-4197-a600-eb11f77000fa.png)
+
 
 ![image](https://user-images.githubusercontent.com/100863488/185759958-84306b89-05d2-4865-ab3b-5972273dd50a.png)
 
