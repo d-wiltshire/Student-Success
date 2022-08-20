@@ -21,7 +21,7 @@ Four datasets were used and joined to
 create the data used for visualizations 
 and machine learning:
 
-1. 2006 - 2012 School Demographics and Accountability Snapshot (Demographic information for NYC cohorts and schools)
+1. <a href="https://data.cityofnewyork.us/Education/2006-2012-School-Demographics-and-Accountability-S/ihfw-zy9j">2006 - 2012 School Demographics and Accountability Snapshot</a> (Demographic information for NYC cohorts and schools)
 
 2. 2016-2017 Graduation Outcomes School (Success metrics like graduation rates and diploma types)
 
