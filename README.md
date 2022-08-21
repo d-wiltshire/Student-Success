@@ -1,4 +1,4 @@
-# Student-Success
+# Visualizing NYC Student Success
 
 ## Overview
 
