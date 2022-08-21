@@ -40,7 +40,7 @@ These four datasets are included in the Resources folder.
 
 ### Process
 
-The four datasets contain information regarding cohorts over multiple years and included different age groups of students. In order to compare the information school by school, I took the following steps:
+The four datasets contain information regarding cohorts over multiple years and include different groups of students. In order to compare the information school by school, I took the following steps:
 
 1. Reduced the datasets to include only schools that had students in 9th, 10th, 11th, and/or 12th grades
 
