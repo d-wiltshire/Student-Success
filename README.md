@@ -13,6 +13,7 @@ My role in this project was fourfold:
 - Writing content and providing some minor styling for the group Heroku website, available here: https://nyc-success-predictions.herokuapp.com/
 
 In this repository I will focus on the extract and transform process as well as the visualizations in Tableau, since this pipeline is self-contained. 
+
 ![whitespace-large](https://user-images.githubusercontent.com/100863488/185760356-bcea3ba4-a0a5-4dbe-9631-bd473c0f0a51.png)
 
 
