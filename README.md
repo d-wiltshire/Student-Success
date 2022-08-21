@@ -63,11 +63,11 @@ Two of the datasets contained elementary and middle schools in the dataset in ad
 This process involved the following:
 * Dropping the pre-K through 8th grade columns
 * Converting all blank values in the 9th-12th columns to NaNs
-* Converting all NaNs in the 9th-12th columns to a placeholder to use for filtering
+* Converting all NaNs in the 9th-12th columns to zero to use for filtering
 * Filtering the dataset to include only rows that included a positive number in at least one of the 9th-12th grade columns
 
 An example:
-![image](https://user-images.githubusercontent.com/100863488/185803906-c2788eea-fbed-480d-9a28-b84db815e6fe.png)
+![image](https://user-images.githubusercontent.com/100863488/185804111-b95b4115-24fb-493b-8627-aa8a1283fb2e.png)
 
 
 #### Numeric columns stored as non-numeric datatypes
