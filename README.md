@@ -67,17 +67,17 @@ This process involved the following:
 * Filtering the dataset to include only rows that included a positive number in at least one of the 9th-12th grade columns
 
 An example:
-![image](https://user-images.githubusercontent.com/100863488/185759873-d55a6976-d05e-4c0d-8500-ea8e6095842d.png)
+![image](https://user-images.githubusercontent.com/100863488/185803906-c2788eea-fbed-480d-9a28-b84db815e6fe.png)
 
 
 #### Numeric columns stored as non-numeric datatypes
 
 Since I would be averaging the numeric columns to create the summary datasets, it was necessary for numeric columns to be stored as numeric datatypes. Several columns were stored as string datatypes because they contained certain entries with the word "Above" and characters like commas or percentage signs. I used regular expressions and lambda functions to recreate these columns with numeric entries before casting the columns to numeric datatypes. Examples follow below:
 
-![image](https://user-images.githubusercontent.com/100863488/185760173-58089724-8a63-4197-a600-eb11f77000fa.png)
+![image](https://user-images.githubusercontent.com/100863488/185803950-2f9502f0-93f7-4f38-ad21-978da6770b55.png)
 
 
-![image](https://user-images.githubusercontent.com/100863488/185759958-84306b89-05d2-4865-ab3b-5972273dd50a.png)
+![image](https://user-images.githubusercontent.com/100863488/185803963-19e5f864-1b14-440b-a901-30867f12f6aa.png)
 
 ![whitespace-small](https://user-images.githubusercontent.com/100863488/185760375-4008996a-3446-484b-95e4-b8ae6cf2422f.png)
 
