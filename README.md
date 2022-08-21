@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is meant to demonstrate my contributions to the group project "NYC-Student-Success-Predictions," which can be found in its unedited form here: https://github.com/divish16/NYC-Student-Success-Predictions
+This repository is meant to demonstrate my contributions to the project "NYC-Student-Success-Predictions," which can be found in its unedited form here: https://github.com/divish16/NYC-Student-Success-Predictions
 
 The goal of the overall project was **to identify and visualize correlations between student demographic data and student success metrics in NYC high schools.**
 
