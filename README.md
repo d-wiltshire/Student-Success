@@ -58,7 +58,7 @@ At several points in the cleaning process, simple measures were not enough to ac
 
 #### Removing elementary and middle schools from the datasets
 
-Two of the datasets contained elementary and middle schools in the dataset in addition to the high schools needed for our project. These datasets contain many columns of students, representing pre-kindergarten levels through 12th grade, with numbers in each column at each row indicating the number of students in that grade per school. 
+Two of the datasets include elementary and middle schools in the dataset in addition to the high schools needed for our project. These datasets contain many columns of students, representing pre-kindergarten levels through 12th grade, with numbers in each column at each row indicating the number of students in that grade per school. 
 
 This process involved the following:
 * Dropping the pre-K through 8th grade columns
