@@ -85,7 +85,7 @@ Since I would be averaging the numeric columns to create the summary datasets, i
 
 After the data cleaning process was finished, the datasets were averaged by school in order to create dataframes with one row per school. The summary dataframes could then be joined together on the School ID ("DBN") column to combine the datasets with information regarding demographic information with information regarding success metrics.
 
-![image](https://user-images.githubusercontent.com/100863488/185804265-9c08ea18-8d93-4a77-8063-d8044a60bed4.png)
+![image](https://user-images.githubusercontent.com/100863488/185804940-f1dd8f8f-687e-4170-a702-5d57eea12df9.png)
 ![whitespace-large](https://user-images.githubusercontent.com/100863488/185760379-58efde8a-ee1f-41a6-8d57-f84415b4d725.png)
 
 ## Visualizations 
