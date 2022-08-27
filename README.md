@@ -22,9 +22,7 @@ In this repository I will focus on the extract and transform process as well as 
 
 ### Datasets
 
-Four datasets were used and joined to 
-create the data used for visualizations 
-and machine learning:
+Four datasets were used and joined to create the data used for visualizations and machine learning:
 
 1. <a href="https://data.cityofnewyork.us/Education/2006-2012-School-Demographics-and-Accountability-S/ihfw-zy9j">2006 - 2012 School Demographics and Accountability Snapshot</a> (Demographic information for NYC cohorts and schools)
 
@@ -38,6 +36,7 @@ These four datasets are included in the Resources folder.
 
 ![whitespace-small](https://user-images.githubusercontent.com/100863488/185760361-d448a978-3a56-4b6e-995c-b8a285d262f5.png)
 
+
 ### Process
 
 The four datasets contain information regarding cohorts over multiple years and include different groups of students. In order to compare the information school by school, I took the following steps:
@@ -49,6 +48,8 @@ The four datasets contain information regarding cohorts over multiple years and 
 3. For each dataset, using groupby in Pandas based on the DBN (an identifying code unique to each school) to average all the schools' rows of information on a given feature, thus creating new "averaged" dataframes with one row per school
 
 4. Joining these averaged dataframes together on the DBN column to create a larger, merged dataframe that contains all needed demographic and success metric information
+
+
 ![whitespace-small](https://user-images.githubusercontent.com/100863488/185760365-8a1bb577-c56e-4271-aa71-eec2c2c1d9d8.png)
 
 
@@ -81,16 +82,19 @@ Since I would be averaging the numeric columns to create the summary datasets, i
 
 ![whitespace-small](https://user-images.githubusercontent.com/100863488/185760375-4008996a-3446-484b-95e4-b8ae6cf2422f.png)
 
+
 ### Transformation to New Dataframes
 
 After the data cleaning process was finished, the datasets were averaged by school in order to create dataframes with one row per school. The summary dataframes could then be joined together on the School ID ("DBN") column to combine the datasets with information regarding demographic information with information regarding success metrics.
 
 ![image](https://user-images.githubusercontent.com/100863488/185804940-f1dd8f8f-687e-4170-a702-5d57eea12df9.png)
+
 ![whitespace-large](https://user-images.githubusercontent.com/100863488/185760379-58efde8a-ee1f-41a6-8d57-f84415b4d725.png)
+
 
 ## Visualizations 
 
-My focus was to visualize relationships between poverty metrics and student success metrics like graduation rates. The visualizations suggest that there may be correlations between these two groups, but correlation is not causation. 
+Of all the information available in the datasets, my focus in creating visualizations was the relationships between poverty metrics and student success metrics like graduation rates. The visualizations suggest that there may be correlations between these two groups, but correlation is not causation. 
 
 Our group's overall conclusion was that student success is likely affected by a number of factors not in our dataset, and demographic information cannot be considered predictive of student success. However, the correlations are striking and may describe trends that could be clarified with future research. 
 
@@ -98,8 +102,6 @@ Screenshots of sample visualizations can be found below. **Please visit our Hero
 
 
 ### Sample Visualizations
-
-
 
 ![SampleVisual3](https://user-images.githubusercontent.com/100863488/184498666-a1aac5d9-2045-4e3b-ba0a-17ae9642f596.png)
 
