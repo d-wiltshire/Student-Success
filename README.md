@@ -10,7 +10,7 @@ My role in this project was fourfold:
 - Sole responsibility for extracting, cleaning, and transforming the datasets for use in visualizations and machine learning (using Python/Pandas in Jupyter Notebook)
 - Creating all visualizations in Tableau
 - Creating the first machine learning model as a template (a multiple linear regression model using RandomForestRegressor)
-- Writing content and providing some minor styling for the group Heroku website, available here: https://nyc-success-predictions.herokuapp.com/
+- Writing content and providing some minor styling for the group Heroku website (previously available here: https://nyc-success-predictions.herokuapp.com/)
 
 In this repository I will focus on the extract and transform process as well as the visualizations in Tableau, since this pipeline is self-contained. 
 
@@ -98,7 +98,7 @@ Of all the information available in the datasets, my focus in creating visualiza
 
 Our group's overall conclusion was that student success is likely affected by a number of factors not in our dataset, and demographic information cannot be considered predictive of student success. However, the correlations are striking and may describe trends that could be clarified with future research. 
 
-Screenshots of sample visualizations can be found below. **Please visit our Heroku site ([https://nyc-success-predictions.herokuapp.com/](https://nyc-success-predictions.herokuapp.com/visualizations.html)) to view additional visualizations and interact with the data.**
+Screenshots of sample visualizations can be found below. 
 
 
 ### Sample Visualizations
