@@ -94,6 +94,10 @@ After the data cleaning process was finished, the datasets were averaged by scho
 
 ## Visualizations 
 
+The visualizations are hosted in Tableau Public and were embedded in the Heroku project site. Direct links to the three Tableau stories can be found here:
+
+
+
 Of all the information available in the datasets, my focus in creating visualizations was the relationships between poverty metrics and student success metrics like graduation rates. The visualizations suggest that there may be correlations between these two groups, but correlation is not causation. 
 
 Our group's overall conclusion was that student success is likely affected by a number of factors not in our dataset, and demographic information cannot be considered predictive of student success. However, the correlations are striking and may describe trends that could be clarified with future research. 
