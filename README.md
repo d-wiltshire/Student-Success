@@ -98,7 +98,7 @@ The visualizations are hosted in Tableau Public and were embedded in the Heroku 
 
 <a href="https://public.tableau.com/app/profile/david1924/viz/story1_16594565100350/StoryDroppedOutEcNeed">Story 1</a>
 <a href="https://public.tableau.com/app/profile/david1924/viz/story2_16595618715520/Story2AdvancedDiplomasEcNeed">Story 2</a>
-<a href="https://public.tableau.com/app/profile/david1924/viz/story3_16595619601070/Story3Assorted">Story 3</a>
+<a href="https://public.tableau.com/app/profile/david1924/viz/story3_16595619601070/Story3Assorted">Story 3</a> 
 
 Of all the information available in the datasets, my focus in creating visualizations was the relationships between poverty metrics and student success metrics like graduation rates. The visualizations suggest that there may be correlations between these two groups, but correlation is not causation. 
 
