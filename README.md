@@ -96,6 +96,7 @@ After the data cleaning process was finished, the datasets were averaged by scho
 
 The visualizations are hosted in Tableau Public and were embedded in the Heroku project site. Direct links to the three Tableau stories can be found here:
 
+<a href="https://public.tableau.com/app/profile/david1924/viz/story1_16594565100350/StoryDroppedOutEcNeed">Story 1</a>
 
 
 Of all the information available in the datasets, my focus in creating visualizations was the relationships between poverty metrics and student success metrics like graduation rates. The visualizations suggest that there may be correlations between these two groups, but correlation is not causation. 
